@@ -2,14 +2,20 @@
 
 A miniature cloud you can run on a laptop, then rent as an EC2 box.
 
-Full source lives in the local workspace (`aws-from-scratch/`). Clone after you push:
+AWS is not a list of product names. It is computer-science abstractions — processes, disks, packets, schedules — implemented at massive scale.
+
+## Local setup
 
 ```bash
-cd aws-from-scratch
 cp .env.example .env
 ./scripts/setup.sh
 ./scripts/run-local.sh
-# other terminal: cd frontend && npm install && npm run dev
 ```
 
-See the repository files after `git push` from your machine using the commands in the project README.
+Docker: `docker compose up --build`
+
+AWS: read `docs/15-aws-deployment.md`, then `./scripts/deploy-aws.sh` and `./scripts/destroy-aws.sh`.
+
+## License
+
+MIT
