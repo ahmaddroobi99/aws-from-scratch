@@ -1,21 +1,9 @@
 # aws-from-scratch
 
-A miniature cloud you can run on a laptop, then rent as an EC2 box.
-
-AWS is not a list of product names. It is computer-science abstractions — processes, disks, packets, schedules — implemented at massive scale.
-
-## Local setup
+Educational mini-cloud sketch: learn AWS-shaped systems by building a tiny working cloud. Incomplete on purpose.
 
 ```bash
-cp .env.example .env
-./scripts/setup.sh
-./scripts/run-local.sh
+# Inspect the tree first — several of these repos are early-stage.
 ```
 
-Docker: `docker compose up --build`
-
-AWS: read `docs/15-aws-deployment.md`, then `./scripts/deploy-aws.sh` and `./scripts/destroy-aws.sh`.
-
-## License
-
-MIT
+Featured work lives in [qg-lada-lab](https://github.com/ahmaddroobi99/qg-lada-lab) and the pinned originals on [github.com/ahmaddroobi99](https://github.com/ahmaddroobi99).
