@@ -1,9 +1,19 @@
 # aws-from-scratch
 
-Educational mini-cloud sketch: learn AWS-shaped systems by building a tiny working cloud. Incomplete on purpose.
+Educational mini-cloud: learn AWS and distributed systems by building a tiny working cloud locally, then mapping it onto AWS.
 
-```bash
-# Inspect the tree first — several of these repos are early-stage.
-```
+This repository is **original work** on this account. It is kept for provenance.
 
-Featured work lives in [qg-lada-lab](https://github.com/ahmaddroobi99/qg-lada-lab) and the pinned originals on [github.com/ahmaddroobi99](https://github.com/ahmaddroobi99).
+It is **not** current research. Featured work:
+
+- [qg-lada-lab](https://github.com/ahmaddroobi99/qg-lada-lab) — QG Lagrangian data assimilation
+- [ai-perception-lab](https://github.com/ahmaddroobi99/ai-perception-lab) — computer vision lab
+- Profile: [github.com/ahmaddroobi99](https://github.com/ahmaddroobi99)
+
+## Language
+
+Makefile
+
+## Year
+
+2026
